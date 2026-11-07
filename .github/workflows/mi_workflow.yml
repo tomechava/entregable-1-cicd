@@ -26,7 +26,7 @@ jobs:
         # 5. ¿Qué comando de shell usarías para obtener la fecha y hora?
         run: |
           echo "Hola, soy Tomas Echavarria y este es mi primer workflow!"  
-          echo "La fecha y hora actual es: $date"
+          echo "La fecha y hora actual es: $(date)"
 
       - name: Configurar Python
         uses: actions/setup-python@v7
