@@ -30,3 +30,6 @@ Primer entregable del curso de CI/CD
 5. Reflexiona sobre el uso de GitHub Actions en tu flujo de trabajo diario. ¿Qué tareas automatizarías? ¿Por qué?
 
 --> Personalmente utilizo gh actions para automatizar suites de testing, linting de codigo y para hacer cd hacia instancias de ec2, de modo que al realizar cambios dentro de mi repositorio el repositorio clonado en la ec2 haga pull de los cambios automaticamente para tener la ultima version del codigo. Esto me evita tener que conectarme a la instancia y hacer pull manualmente cada vez que subo un cambio.
+
+
+## Enlace de ejecución exitosa del workflow: https://github.com/tomechava/entregable-1-cicd/actions/runs/42380678973 
