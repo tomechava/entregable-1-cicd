@@ -1,4 +1,4 @@
-name: ???  # 1. Dale un nombre descriptivo a tu workflow
+name: mi_workflow  # 1. Dale un nombre descriptivo a tu workflow
 
 on:
   push: # 2. Evento al subir cambios: push
@@ -26,12 +26,12 @@ jobs:
         # 5. ¿Qué comando de shell usarías para obtener la fecha y hora?
         run: |
           echo "Hola, soy Tomas Echavarria y este es mi primer workflow!"  
-          echo "La fecha y hora actual es: " date
+          echo "La fecha y hora actual es: $date"
 
       - name: Configurar Python
         uses: actions/setup-python@v7
         with:
-          python-version: 3.13.7 # 6. Usa una versión mantenida; recomendada: '3.13'.
+          python-version: '3.13.7' # 6. Usa una versión mantenida; recomendada: '3.13'.
 
       - name: Ejecutar script Python
         run: python mi_script.py #7. Completa para ejecutar el script de python. Pista: python <nombre_archivo>
